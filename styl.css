@@ -33,6 +33,7 @@ html {
 a{
     font-size: 40px;
     color: red;
+    display: inline-block;
 }
 
 marquee{
@@ -66,8 +67,4 @@ marquee{
     color: black;
     margin-top: 100px;
     font-size: xx-large
-}
-.linki1{
-    margin-left: 100px;
-    
 }
