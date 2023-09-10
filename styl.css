@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 255, 72), rgb(126, 61, 206));
+    background-size: 200% 200%;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.tytul {
+    font-size: xx-large;
+    color: rgb(138, 190, 131);
+    background-color: blue; 
+}
+
+.podtytul{
+    color: rgb(114, 141, 164);
+    font-size: x-large;
+}
+
+.duze_zdj{
+    opacity: 0.8;
+    border: 8px solid white;
+    border-radius: 40px;
+    height: 300px;
+}
+
+a{
+    font-size: 40px;
+    color: red;
+}
+
+marquee{
+    color: rgb(57, 57, 191);
+    font-size: x-large
+}
+.linki{
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    margin-top: 500px;
+}
+
+.pasek{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pasek a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    float: right;
+    padding: 10px 10px;
+}
