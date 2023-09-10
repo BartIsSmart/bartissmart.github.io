@@ -61,3 +61,8 @@ marquee{
     float: right;
     padding: 10px 10px;
 }
+.text {
+    height: 500px;
+    color: black;
+    font-size: xx-large
+}
